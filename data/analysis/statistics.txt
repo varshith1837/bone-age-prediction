@@ -1,0 +1,8 @@
+total_samples: 12611
+age_mean: 10.610062643723733
+age_std: 3.4318351166163605
+age_min: 0.08333333333333333
+age_max: 19.0
+male_count: 6833
+female_count: 5778
+male_pct: 54.182856236618825
