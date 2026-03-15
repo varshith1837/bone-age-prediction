@@ -5,7 +5,7 @@ This project addresses both **continuous age prediction (regression)** and **dev
 
 ---
 
-## 📌 Problem Overview
+## Problem Overview
 
 Bone age assessment is a critical diagnostic tool in pediatrics to evaluate skeletal maturity and detect growth-related disorders.  
 Traditional methods such as **Greulich–Pyle** and **Tanner–Whitehouse** are manual, time-consuming, and subject to inter-observer variability.
@@ -18,7 +18,7 @@ This project aims to:
 
 ---
 
-## 📊 Dataset
+## Dataset
 
 - **Dataset:** RSNA Pediatric Bone Age Dataset
 - **Images:** 12,611 pediatric hand radiographs
@@ -31,7 +31,7 @@ This project aims to:
 
 ---
 
-## 🧠 Methodology
+## Methodology
 
 ### Image Preprocessing
 - Resized all images to **384×384**
@@ -79,7 +79,7 @@ This project aims to:
 
 ---
 
-## 📈 Results
+## Results
 
 ### Regression Performance (Holdout Set)
 - **MAE:** 7.38 months
@@ -94,7 +94,7 @@ These results fall within the accuracy range of **clinical experts**.
 
 ---
 
-## 🔍 Interpretability & Analysis
+## Interpretability & Analysis
 
 - **Grad-CAM** visualizations show attention on clinically relevant regions:
   - Carpal bones
@@ -105,7 +105,7 @@ These results fall within the accuracy range of **clinical experts**.
 
 ---
 
-## ⚖️ Fairness & Bias Evaluation
+## Fairness & Bias Evaluation
 
 - Gender-wise MAE difference: **~1.3 months**
 - No systematic over- or under-estimation across genders
@@ -113,7 +113,7 @@ These results fall within the accuracy range of **clinical experts**.
 
 ---
 
-## 🏥 Clinical Relevance
+## Clinical Relevance
 
 Potential applications:
 - Pediatric screening tool
@@ -125,7 +125,7 @@ Potential applications:
 
 ---
 
-## 🔮 Future Work
+## Future Work
 
 - Uncertainty-aware predictions
 - Transformer-based attention mechanisms
@@ -135,7 +135,7 @@ Potential applications:
 
 ---
 
-## 🛠 Tech Stack
+## Tech Stack
 
 - **Languages:** Python
 - **Deep Learning:** PyTorch / TensorFlow
@@ -144,7 +144,7 @@ Potential applications:
 
 ---
 
-## 📚 References
+## References
 
 - RSNA Pediatric Bone Age Challenge (2017)  
   https://www.rsna.org/education/ai-resources-and-training/ai-image-challenge/rsna-pediatric-bone-age-challenge-2017
