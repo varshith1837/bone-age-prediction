@@ -151,6 +151,6 @@ Potential applications:
 
 ---
 
-## ⭐ Key Takeaway
+## Key Takeaway
 
 This project demonstrates that **efficient deep learning models** can achieve **clinically relevant accuracy**, provide **interpretable predictions**, and maintain **fairness across demographic groups** in pediatric bone age assessment.
